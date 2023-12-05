@@ -35,6 +35,18 @@ a:visited {
     justify-content: center;
     align-items: center;
 }
+.btn-select:hover {
+    background: #906cbf;
+}
+#mei {
+    color: rgb(195, 195, 195);
+    margin-bottom: -20%;
+    margin-left: -150px;
+    font-size: 14px;
+}
+#freelancer {
+    margin-bottom: 50%;
+}
 .logo {
     height: 75px;
     width: 75px;
