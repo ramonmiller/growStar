@@ -48,13 +48,9 @@ body {
 #publicar {
     color: white;
     font-family: Century Gothic;
-    margin-top: 7%;
-    width: 230px; 
-    height: 35px;
-    font-size: 27px;
-}
-#descricao {
-    margin-top: 25%;
+    margin-top: 10%; 
+    height: 25px;
+    font-size: 30px;
 }
 input {
     background-color: #693881;
@@ -64,10 +60,14 @@ input {
     font-family: Century Gothic;
     height: 50px;
     width: 275px;
-    padding-left: 10px;
+    padding-left: 15px;
     margin-top: 10%;
+    margin-left: 25%;
     font-style: italic;
     font-size: small;
+}
+#vermais:hover {
+    background: #55116d;
 }
 input::placeholder {
     color: rgba(255, 255, 255, 0.6);
@@ -84,6 +84,9 @@ button {
     width: 150px;
     margin-bottom: 10%;
 }
+#btn:hover {
+    background: #421353;
+}
 #freelancers {
     font-family: Century Gothic;
     margin-top: 20%;
@@ -92,6 +95,7 @@ button {
     height: 30px;
     width: 120px;
     font-size: small;
+    background-color: #653a9e;
 }
 .divlucas {
     height: 70px;
@@ -103,9 +107,12 @@ button {
     font-family: Century Gothic;
     margin-top: 5%;
 }
+.divlucas:hover {
+    background-color: #672086;
+}
 #lucas {
-    height: 60px;    
-    width: 60px;
+    height: 55px;    
+    width: 55px;
     border-radius: 50%;
 }
 .divpedro {
@@ -118,9 +125,12 @@ button {
     margin-top: 5%;
     font-family: Century Gothic;
 }
+.divpedro:hover {
+    background-color: #672086;
+}
 #pedro {
-    height: 60px;    
-    width: 60px;
+    height: 55px;    
+    width: 55px;
     border-radius: 50%;
 }
 .divana {
@@ -133,9 +143,12 @@ button {
     margin-top: 5%;
     font-family: Century Gothic;
 }
+.divana:hover {
+    background-color: #672086;
+}
 #ana {
-    height: 60px;    
-    width: 60px;
+    height: 55px;    
+    width: 55px;
     border-radius: 50%;
 }
 .divmarina {
@@ -148,14 +161,17 @@ button {
     margin-top: 5%;
     font-family: Century Gothic;
 }
+.divmarina:hover {
+    background-color: #672086;
+}
 #marina {
-    height: 60px;    
-    width: 60px;
+    height: 55px;    
+    width: 55px;
     border-radius: 50%;
 }
 .nomes {
-    margin-left: 5%;
+    margin-left: 3%;
 }
 .perfis {
-    margin-left: 2%;
+    margin-left: 3%;
 }
