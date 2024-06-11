@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #astro {
+      height: 600px;
+      width: 600px;
+      margin-top: 150px;
+      margin-left: -5%;
+    }
+    #paizao {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .h {
+      text-align: center;
+      color: white;
+      font-family: Century Gothic;
+      margin-top: 5%;
+    }
+    .titulo {
+      color: white;
+      background-color: rgba(182, 134, 221, 0.664);
+      border-radius: 25px;
+      width: 175px;
+      font-family: Century Gothic;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      margin-top: 5%;
+    }
+    .p1 {
+      color: white;
+      text-align: center;
+      font-family: Century Gothic;
+    }
+    body {
+      background: linear-gradient(90deg, #343a87, #5b33a1);
+    }
+    .logo {
+      height: 114px;
+      width: 121px;
+      margin: auto;
+      display: block;
+      margin-top: 20px;
+    }
+    #painho {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .filho {
+      border-radius: 25px;
+      margin: auto;
+      width: 300px;
+      height: 350px;
+      padding-top: 10px;
+      padding-bottom: 25px;
+      background: linear-gradient(45deg, rgb(183, 135, 223), rgb(114, 114, 221));
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 5%;
+    }
+    img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #logogoogle {
+      margin-right: 18px;
+    }
+    #logoface {
+      margin-right: 5px;
+    }
+    .continuar {
+      background-color: rgba(255, 255, 255, 0.25);
+      border-radius: 25px;
+      border: solid 0px;
+      color: white;
+      font-family:
+        DejaVu Sans Mono,
+        monospace;
+      height: 30px;
+      width: 230px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5%;
+    }
+    .continuar:hover {
+      background-color: rgba(110, 68, 124, 0.381);
+    }
+    input {
+      background-color: rgba(121, 118, 118, 0.493);
+      color: rgb(255, 255, 255);
+      border-radius: 25px;
+      border: solid 0px;
+      font-family:
+        DejaVu Sans Mono,
+        monospace;
+      height: 25px;
+      width: 150px;
+      padding-left: 10px;
+      margin-top: 5%;
+    }
+    #login {
+      margin-bottom: 3%;
+    }
+    input::placeholder {
+      color: white;
+    }
+    .entrar {
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 25px;
+      border: solid 0px;
+      color: #800080;
+      font-family: Century Gothic;
+      height: 30px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10%;
+    }
+    .entrar:hover {
+      background: #906cbf;
+    }
+    a {
+      text-decoration: none;
+    }
+    a:link {
+      color: white;
+      text-decoration: none;
+    }
+    a:visited {
+      color: white;
+      text-decoration: none;
+    }
+    

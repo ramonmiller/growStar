@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Grow Star - Cadastro</title>
+        <link rel="stylesheet" href="../style/infoprof.css" />
+    </head>
+    <body>
+        <div class="pai">
+            <img class="logo" src="../img/growstar.png" />
+            <img class="discussion" src="../img/Interview-amico (1).png" />
+            <div class="caixa">
+                <h2 id="bemvindo">Informações Profissionais</h2>
+                <label><input type="text" placeholder="Nome / Razão social" /></label>
+                <label><input type="text" placeholder="Setor de atuação da empresa (nicho)" /></label>
+                <label><input type="text" class="cnpj" placeholder="CNPJ" /></label>
+                <label><input type="email" placeholder="Contato (e-mail ou site oficial)" /></label>
+                <a href="homepageemp.html"><button id="prox">Próximo</button></a>
+            </div>
+        </div>
+        <script src="../javascript/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/cleave.min.js"></script>
+        <script>
+            new Cleave('.cnpj', {
+                delimiters: ['.', '.', '/', '-'],
+                blocks: [2, 3, 3, 4, 2],
+                numericOnly: true
+            });
+        </script>
+    </body>
+</html>
